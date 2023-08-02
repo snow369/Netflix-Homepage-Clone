@@ -1,4 +1,4 @@
-# Netflix-Homepage ✨
+# Netflix-Homepage-Clone ✨
 Recreating the frontend design of Netflix's homepage using HTML and CSS. 🎬
 Features include a responsive layout, navigation bar, search functionality, and interactive elements. 🍿
 
