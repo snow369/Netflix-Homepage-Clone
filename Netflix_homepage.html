@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Clone</title>
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 10px 0;
+  }
+  
+  .logo {
+    width: 200px;
+    height: 100px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    background-color: #222;
+    padding: 20px;
+  }
+  
+  .content-section {
+    margin-bottom: 40px;
+  }
+  
+  .content-section h2 {
+    color: #fff;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+  }
+  
+  .card img {
+    width: 80%;
+    height: 630px;
+    object-fit: fill;
+  }
+  
+  .card h3 {
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img src="https://www.edigitalagency.com.au/wp-content/uploads/Netflix-logo-red-black-png.png" alt="Netflix Logo" class="logo">
+      <nav>
+        <ul>
+          <li><a href="#" target="_blank">Home &nbsp;&nbsp;|</a></li>
+          <li><a href="#" target="_blank">TV Shows &nbsp;&nbsp;|</a></li>
+          <li><a href="#" target="_blank">Movies</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="content-section">
+      <h2>Trending Now</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="https://pbs.twimg.com/media/FvUVt3hXgAAxP1H.jpg" alt="Movie 1">
+          <h3>Oppenheimer</h3>
+        </div>
+        <div class="card">
+          <img src="https://posterspy.com/wp-content/uploads/2023/01/Wednesday-2.jpg" alt="Movie 2">
+          <h3>Wednesday</h3>
+        </div>
+        <div class="card">
+            <img src="https://www.cwfilms.jp/en/news/images/12809e7f10e8ec3c6691c5c0c1be7cc50fe00ba6.jpg" alt="Movie 3">
+            <h3>Suzume</h3>
+          </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <h2>Popular TV Shows</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="https://i.mydramalist.com/0w4EeK_4c.jpg?v=1" alt="TV Show 1">
+          <h3>King the Land</h3>
+        </div>
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="TV Show 2">
+          <h3>Stranger Things</h3>
+        </div>
+        <div class="card">
+            <img src="https://e1.pxfuel.com/desktop-wallpaper/635/548/desktop-wallpaper-all-of-us-are-dead-cast-all-of-us-are-dead-thumbnail.jpg" alt="TV Show 3">
+            <h3>All Of Us Are Dead</h3>
+          </div>
+      </div>
+    </section>
+    <section class="content-section">
+      <h2>New Releases</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="https://asianwiki.com/images/f/f2/Revenant_KD-p4.jpg" alt="Movie 4">
+          <h3>Revenant</h3>
+        </div>
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/M/MV5BMzAyNmUyNTctODk2Zi00ZmZlLTkyZDQtZjMxMGFiMDJmMTNkXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg" alt="Movie 5">
+          <h3>Celebrity</h3>
+        </div>
+        <div class="card">
+            <img src="https://m.media-amazon.com/images/I/51TbOaoGxhL.jpg" alt="Movie 6">
+            <h3>The Witcher</h3>
+         </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 My Netflix Clone</p>
+  </footer>
+</body>
+
+</html>
